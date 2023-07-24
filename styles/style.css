@@ -1,0 +1,135 @@
+/* STYLES FOR RECIPE BLOG
+   ========================================================================== */
+
+/* BASE STYLING
+   ========================================================================== */
+body,
+html {
+	font-size: 20px;
+	letter-spacing: 0.05em;
+}
+
+/* HOME PAGE
+      ========================================================================== */
+header nav {
+	height: 35px;
+	text-align: center;
+}
+header nav li {
+	display: inline-block;
+	width: 30%;
+	margin: 10px 0px;
+}
+
+header nav li a {
+	font-weight: bold;
+	color: white;
+}
+
+header {
+	color: white;
+	height: 450px;
+	background-image: url(../images/cutting-board.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+header h1 {
+	margin: 45px 0px 45px 45px;
+	font-size: 50px;
+	color: white;
+	font-family: sans-serif;
+	max-width: 600px;
+}
+
+header p {
+	margin: 45px 0px 45px 45px;
+	max-width: 600px;
+
+	line-height: 1.2;
+	font-size: 20px;
+}
+
+main {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.blog-home #about h2,
+.blog-home #recipes h2 {
+	margin: 50px 0px;
+	font-size: 25px;
+	font-weight: 600;
+	padding: 5px;
+}
+
+.blog-home #about p,
+.blog-home #recipes li {
+	max-width: 750px;
+	line-height: 1.2;
+	padding: 8px;
+}
+
+footer {
+	text-align: center;
+	background: black;
+	color: white;
+	padding: 40px;
+	line-height: 1.5;
+	margin-top: 100px;
+}
+
+/* ESTHERS RECIPE PAGE
+      ========================================================================== */
+.esthers-recipe header {
+	color: black;
+	background-image: url(../images/muffin-esther.jpg);
+	background-position: center -10px;
+}
+
+.esthers-recipe nav {
+	background: black;
+}
+
+.esthers-recipe header h1 {
+	color: black;
+	margin-top: 250px;
+	background: white;
+	width: 400px;
+}
+
+.esthers-recipe h2 {
+	font-size: 25px;
+	font-weight: 700;
+	margin: 50px 0px;
+}
+
+.esthers-recipe main p {
+	max-width: 750px;
+	line-height: 1.2;
+	margin: 5px;
+}
+
+.esthers-recipe h3 {
+	font-size: 20px;
+	font-weight: 700;
+	margin: 20px 0px;
+}
+
+.esthers-recipe li {
+	line-height: 1.2;
+	list-style-position: inside;
+	list-style-type: disc;
+}
+
+.esthers-recipe ol li {
+	list-style-type: decimal;
+}
+
+.esthers-recipe img {
+	max-width: 100%;
+}
+
+/* ----END----- OF ESTHERS RECIPE PAGE
+      ========================================================================== */
