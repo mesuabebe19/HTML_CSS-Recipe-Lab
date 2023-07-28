@@ -139,6 +139,93 @@ footer {
 /* LINDA's RECIPE PAGE
       ========================================================================== */
 
+.lindas-recipe header {
+	background-image: url(../images/muffin-esther.jpg);
+	background-position: center -10px;
+}
+
+.lindas-recipe header nav li a {
+	font-weight: bold;
+	color: rgb(112, 129, 145);
+}
+
+
+.lindas-recipe nav {
+	background: lightgray;
+	border-radius: 7px;
+
+}
+
+.lindas-recipe img {
+	max-width: 100%;
+}
+
+.lindas-recipe header h1 {
+	color: rgb(137, 152, 175);
+	margin-top: 250px;
+	background: lightgray;
+	width: 400px;
+	border-radius: 7px;
+	padding: 5px;
+	text-align: center;
+	border: solid 1px;
+}
+
+.lindas-recipe h2 {
+	font-size: 25px;
+	font-weight: 700;
+	margin: 50px 0px;
+	color: rgb(137, 152, 175);
+	text-decoration: underline wavy .25px;
+}
+
+.lindas-recipe li {
+
+	line-height: 1.25;
+	list-style-position: inside;
+	list-style-type: disc;
+
+}
+
+.lindas-recipe ol li {
+	list-style-type: decimal;
+	line-height: 1.25;
+	font-size: medium;
+	inset-inline: 5px;
+
+}
+
+
+.lindas-recipe aside {
+	width: 30%;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: 15px;
+	float: right;
+	font-style: italic;
+	background-color: lightgray;
+	border-radius: 7px;
+	border: solid 1px;
+}
+
+.lindas-recipe h3 {
+	color: rgb(137, 152, 175);
+	font-weight: bold;
+	border-color: lightgray;
+	text-decoration: underline;
+}
+
+.lindas-recipe p {
+	line-height: 1.25;
+	font-size: medium;
+}
+
+.lindas-recipe ul {
+	line-height: 1.5;
+	font-size: medium;
+}
 
 /* ----END----- OF LINDA's RECIPE PAGE
       ========================================================================== */
