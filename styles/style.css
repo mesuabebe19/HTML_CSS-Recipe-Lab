@@ -157,7 +157,7 @@ footer {
 }
 
 .lindas-recipe img {
-	max-width: 100%;
+	max-width: 80%;
 }
 
 .lindas-recipe header h1 {
@@ -183,7 +183,7 @@ footer {
 
 	line-height: 1.25;
 	list-style-position: inside;
-	list-style-type: disc;
+	list-style-type: square;
 
 }
 
