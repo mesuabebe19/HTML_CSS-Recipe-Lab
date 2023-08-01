@@ -161,9 +161,9 @@ footer {
 }
 
 .lindas-recipe header h1 {
-	color: rgb(137, 152, 175);
+	color: rgb(126, 131, 139);
 	margin-top: 250px;
-	background: lightgray;
+	background: rgba(211, 211, 211, .6);
 	width: 400px;
 	border-radius: 7px;
 	padding: 5px;
