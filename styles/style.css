@@ -143,6 +143,7 @@ footer {
 	background-image: url(../images/Linda\ in\ kitchen.jpg);
 	background-position: center;
 	border: solid black 1px;
+	border-radius: 7px;
 
 }
 
@@ -161,6 +162,7 @@ footer {
 .lindas-recipe img {
 	max-width: 80%;
 	border: solid black 5px;
+	border-radius: 7px;
 }
 
 
