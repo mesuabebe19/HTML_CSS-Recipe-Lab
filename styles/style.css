@@ -145,7 +145,6 @@ footer {
 .chads-recipe header {
 	background-image: url(https://cdn.cp.adobe.io/content/2/dcx/492be529-4c1e-4d51-880a-20ae56a96740/rendition/preview.jpg/version/0/format/jpg/dimension/width/size/1200);
 	background-color: blanchedalmond;
-	background-position: center -10px;
 }
 
 .chads-recipe {
@@ -176,13 +175,19 @@ b {
 
 .chads-list h2 {
 	color: black;
-	text-shadow: 1px 1px 1px rgb(0, 0, 0);
+	font-weight: bold;
 	text-align: center;
+}
+
+.chads-list img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .chads-directions h2 {
 	color: black;
-	text-shadow: 1px 1px 1px rgb(0, 0, 0);
+	font-weight: bold;
 	text-align: center;
 }
 
@@ -200,6 +205,22 @@ b {
 	border: 3px solid black;
 	padding: 2px;
 	margin: 2rem;
+}
+
+.chads-bio img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.chads-bio p {
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 2px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 50px;
+
 }
 
 /* ----END----- OF CHAD'S RECIPE PAGE
