@@ -142,6 +142,7 @@ footer {
 .lindas-recipe header {
 	background-image: url(../images/Linda\ in\ kitchen.jpg);
 	background-position: center;
+	border: solid black 1px;
 
 }
 
