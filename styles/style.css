@@ -140,8 +140,54 @@ footer {
 /* KAAYA'S RECIPE PAGE
       ========================================================================== */
 
+.Kaaya-recipe header {
+	color: black;
+	background-image: url(https://images.unsplash.com/photo-1556912173-3bb406ef7e77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8a2l0Y2hlbiUyMGNhYmluZXRzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+	background-position: center -10px;
+}
 
+.Kaaya-recipe nav {
+	background: black;
+}
 
+.Kaaya-recipe header h1 {
+	color: black;
+	margin-top: 250px;
+	background: white;
+	width: 400px;
+}
+
+.Kaaya-recipe h2 {
+	font-size: 25px;
+	font-weight: 700;
+	margin: 50px 0px;
+}
+
+.Kaaya-recipe main p {
+	max-width: 750px;
+	line-height: 1.2;
+	margin: 5px;
+}
+
+.Kaaya-recipe h3 {
+	font-size: 20px;
+	font-weight: 700;
+	margin: 20px 0px;
+}
+
+.Kaaya-recipe li {
+	line-height: 1.2;
+	list-style-position: inside;
+	list-style-type: disc;
+}
+
+.Kaaya-recipe ol li {
+	list-style-type: decimal;
+}
+
+.Kaaya-recipe img {
+	max-width: 100%;
+}
 
 
 /* ----END----- OF KAAYA'S RECIPE PAGE
