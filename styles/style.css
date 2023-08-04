@@ -230,8 +230,9 @@ footer {
 	background-color: lightgray;
 	border-radius: 7px;
 	border: solid 1px;
-	padding: 5px;
+	padding: 11px;
 	width: 20%;
+	text-align: center;
 }
 
 .lindas-recipe p {
