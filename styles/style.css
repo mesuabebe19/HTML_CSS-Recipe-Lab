@@ -3,8 +3,7 @@
 
 /* BASE STYLING
    ========================================================================== */
-body,
-html {
+body, html {
 	font-size: 20px;
 	letter-spacing: 0.05em;
 }
@@ -155,12 +154,15 @@ footer {
 	margin-top: 250px;
 	background: white;
 	width: 400px;
+	border: 2px outset red;
 }
 
 .Kaaya-recipe h2 {
 	font-size: 25px;
 	font-weight: 700;
 	margin: 50px 0px;
+	color: blueviolet;
+	border: 10px double red;
 }
 
 .Kaaya-recipe main p {
@@ -173,6 +175,10 @@ footer {
 	font-size: 20px;
 	font-weight: 700;
 	margin: 20px 0px;
+	color: rgb(216, 143, 59);
+	border: 5px solid purple;
+	outline: 5px dashed green;
+	outline-offset: 2px;
 }
 
 .Kaaya-recipe li {
