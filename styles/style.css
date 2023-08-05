@@ -138,6 +138,7 @@ footer {
 
 /* KAAYA'S RECIPE PAGE
       ========================================================================== */
+	  /* Typography is the way  that text is arranged and presented from CSS */
 
 .Kaaya-recipe header {
 	color: black;
@@ -174,6 +175,7 @@ footer {
 	font-style: italic;
 	font-size: 25px;
 	font-weight: 500px;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 .Kaaya-recipe h3 {
@@ -190,10 +192,18 @@ footer {
 	line-height: 1.2;
 	list-style-position: inside;
 	list-style-type: disc;
+
 }
 
+.Kaaya-recipe ul li:nth-child(even) {
+	color: blue;
+
+}
 .Kaaya-recipe ol li {
-	list-style-type: decimal;
+	list-style-position: inside;
+	list-style-type: upper-roman;
+	/* list-style-type: decimal; */
+	/* default is always decimal however you can change that to your desires */
 }
 
 .Kaaya-recipe img {
