@@ -41,6 +41,7 @@ header h1 {
 	color: white;
 	font-family: sans-serif;
 	max-width: 600px;
+	
 }
 
 header p {
@@ -156,6 +157,7 @@ footer {
 	background: white;
 	width: 400px;
 	border: 2px outset red;
+	
 }
 
 .Kaaya-recipe h2 {
