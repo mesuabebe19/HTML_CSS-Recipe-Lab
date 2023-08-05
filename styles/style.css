@@ -169,6 +169,8 @@ footer {
 	max-width: 750px;
 	line-height: 1.2;
 	margin: 5px;
+	text-indent: 2em;
+	text-align: justify;
 }
 
 .Kaaya-recipe h3 {
