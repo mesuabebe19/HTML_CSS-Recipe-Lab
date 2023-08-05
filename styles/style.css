@@ -192,6 +192,8 @@ footer {
 	line-height: 1.2;
 	list-style-position: inside;
 	list-style-type: disc;
+	/* border: 2px solid #333;
+	border-radius: 2rem; */
 
 }
 
@@ -204,12 +206,18 @@ footer {
 	list-style-type: upper-roman;
 	/* list-style-type: decimal; */
 	/* default is always decimal however you can change that to your desires */
+	
+		
 }
 
 .Kaaya-recipe img {
 	max-width: 100%;
 }
 
+.plate_image {
+	border: 2px solid #333;
+	border-radius: 2rem; 
+}
 
 /* ----END----- OF KAAYA'S RECIPE PAGE
       ========================================================================== */
