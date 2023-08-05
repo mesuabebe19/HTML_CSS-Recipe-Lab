@@ -171,6 +171,9 @@ footer {
 	margin: 5px;
 	text-indent: 2em;
 	text-align: justify;
+	font-style: italic;
+	font-size: 25px;
+	font-weight: 500px;
 }
 
 .Kaaya-recipe h3 {
