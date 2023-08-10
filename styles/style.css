@@ -133,3 +133,60 @@ footer {
 
 /* ----END----- OF ESTHERS RECIPE PAGE
       ========================================================================== */
+
+
+	  /* MESERETS RECIPE PAGE
+      ========================================================================== */
+	  .Meserets-recipe header {
+		color: black;
+		background-image: url(https://media.istockphoto.com/id/1132051631/photo/injera-with-chicken-doro-wat.webp?b=1&s=170667a&w=0&k=20&c=Qh8phT5JCZIqTyzXkb1w7OPTpwofm6WmsOig3ZPlrfs=);
+		background-position: center -5px;
+	}
+	
+	.Meserets-recipe nav {
+		background: black;
+	}
+	
+	.Meserets-recipe header h1 {
+		color: purple;
+		margin-top: 250px;
+		background: white;
+		width: 400px;
+	}
+	
+	.Meserets-recipe h2 {
+		font-size: 25px;
+		font-weight: 700;
+		margin: 50px 0px;
+	}
+	
+	.Meserets-recipe main p {
+		max-width: 750px;
+		line-height: 1.2;
+		margin: 5px;
+	}
+	
+	.Meserets-recipe h3 {
+		font-size: 20px;
+		font-weight: 700;
+		margin: 20px 0px;
+	}
+	
+	.Meserets-recipe li {
+		line-height: 1.2;
+		list-style-position: inside;
+		list-style-type: disc;
+	}
+	
+	.Meserets-recipe ol li {
+		list-style-type: decimal;
+		list-style-position: outside;
+	}
+	
+	.Meserets-recipe img {
+		max-width: 100%;
+	}
+	
+	/* ----END----- OF MESERETS RECIPE PAGE
+		  ========================================================================== */
+	
