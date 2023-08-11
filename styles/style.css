@@ -3,7 +3,8 @@
 
 /* BASE STYLING
    ========================================================================== */
-body, html {
+body,
+html {
 	font-size: 20px;
 	letter-spacing: 0.05em;
 }
@@ -41,7 +42,7 @@ header h1 {
 	color: white;
 	font-family: sans-serif;
 	max-width: 600px;
-	
+
 }
 
 header p {
@@ -139,7 +140,7 @@ footer {
 
 /* KAAYA'S RECIPE PAGE
       ========================================================================== */
-	  /* Typography is the way  that text is arranged and presented from CSS */
+/* Typography is the way  that text is arranged and presented from CSS */
 
 .Kaaya-recipe header {
 	color: black;
@@ -157,7 +158,7 @@ footer {
 	background: white;
 	width: 400px;
 	border: 2px outset red;
-	
+
 }
 
 .Kaaya-recipe h2 {
@@ -172,7 +173,7 @@ footer {
 	max-width: 900px;
 	line-height: 1.2;
 	margin: 5px;
-	text-indent: 2em; 
+	text-indent: 2em;
 	text-align: justify;
 	font-style: italic;
 	font-size: 20px;
@@ -208,13 +209,14 @@ footer {
 	color: blue;
 
 }
+
 .Kaaya-recipe ol li {
 	list-style-position: inside;
 	list-style-type: upper-roman;
 	/* list-style-type: decimal; */
 	/* default is always decimal however you can change that to your desires */
-	
-		
+
+
 }
 
 .Kaaya-recipe img {
@@ -223,27 +225,31 @@ footer {
 
 .plate_image {
 	border: 2px solid #333;
-	border-radius: 2rem; 
+	border-radius: 2rem;
 }
+
 aside {
 	width: 30%;
-	padding-left: 15px;
+	/* padding-left: 15px; */
 	margin-left: 15px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	font-style: italic;
-	
-	
-	
+	padding: auto;
+
+
+
 	/* background-color: lightgray; */
 }
 
+/* added this flex statement for alignment for <aside> to work */
 .flex {
 	display: flex;
-	
+
 }
 
-.flex ul, .flex aside {
+.flex ul,
+.flex aside {
 	flex: 1;
 }
 
