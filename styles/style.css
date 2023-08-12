@@ -157,7 +157,9 @@ footer {
 	margin-top: 250px;
 	background: white;
 	width: 400px;
+	text-shadow: 1px 1px 2px rgb(248, 134, 153);
 	border: 2px outset red;
+	box-shadow: 2px 2px 2px blue;
 
 }
 
@@ -168,6 +170,7 @@ footer {
 	color: blueviolet;
 	border: 10px double red;
 }
+
 
 .Kaaya-recipe main p {
 	max-width: 900px;
@@ -224,8 +227,10 @@ footer {
 }
 
 .plate_image {
-	border: 2px solid #333;
+	padding-top: 15px;
+	 /* border: 2px solid #333;  */
 	border-radius: 2rem;
+	filter: drop-shadow(0 0 0.50rem crimson);
 }
 
 aside {
