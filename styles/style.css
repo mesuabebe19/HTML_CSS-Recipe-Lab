@@ -138,6 +138,97 @@ footer {
 
 
 
+/* CHAD'S RECIPE PAGE
+      ========================================================================== */
+.chads-recipe nav {
+	color: black;
+}
+
+.chads-recipe header {
+	background-image: url(https://cdn.cp.adobe.io/content/2/dcx/492be529-4c1e-4d51-880a-20ae56a96740/rendition/preview.jpg/version/0/format/jpg/dimension/width/size/1200);
+	background-color: blanchedalmond;
+}
+
+.chads-recipe {
+	background-color: #dfecf5;
+}
+
+.chads-recipe p,
+b {
+	margin: 10px;
+	padding: 10px;
+}
+
+.chads-recipe ul {
+	margin: 10px;
+	padding: 10px;
+	list-style-type: circle;
+}
+
+.chads-recipe li {
+	line-height: 1.5;
+	list-style-position: inside;
+}
+
+.chads-recipe h1 {
+	color: red;
+	text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.chads-list h2 {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
+
+.chads-list img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.chads-directions h2 {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
+
+.chads-directions img {
+	padding: 10px;
+}
+
+.chads-recipe ol {
+	margin: 10px;
+	padding: 10px;
+	list-style-type: numbers;
+}
+
+.chads-recipe img {
+	border: 3px solid black;
+	padding: 2px;
+	margin: 2rem;
+}
+
+.chads-bio img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.chads-bio p {
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 2px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 50px;
+
+}
+
+/* ----END----- OF CHAD'S RECIPE PAGE
+      ========================================================================== */
+=======
+
 
 /* KAAYA'S RECIPE PAGE
       ========================================================================== */
@@ -437,5 +528,6 @@ aside {
 
 /* ----END----- OF LINDA's RECIPE PAGE
       ========================================================================== */
+
 
 
