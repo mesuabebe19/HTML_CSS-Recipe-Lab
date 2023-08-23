@@ -42,6 +42,7 @@ header h1 {
 	color: white;
 	font-family: sans-serif;
 	max-width: 600px;
+
 }
 
 header p {
@@ -137,6 +138,131 @@ footer {
 
 
 
+
+/* KAAYA'S RECIPE PAGE
+      ========================================================================== */
+/* Typography is the way  that text is arranged and presented from CSS */
+
+.Kaaya-recipe header {
+	color: black;
+	background-image: url(https://images.unsplash.com/photo-1556912173-3bb406ef7e77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8a2l0Y2hlbiUyMGNhYmluZXRzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+	background-position: center -10px;
+}
+
+.Kaaya-recipe nav {
+	background: black;
+}
+
+.Kaaya-recipe header h1 {
+	color: black;
+	margin-top: 250px;
+	background: white;
+	width: 400px;
+	text-shadow: 1px 1px 2px rgb(248, 134, 153);
+	border: 2px outset red;
+	box-shadow: 2px 2px 2px blue;
+
+}
+
+.Kaaya-recipe h2 {
+	font-size: 25px;
+	font-weight: 700;
+	margin: 50px 0px;
+	color: blueviolet;
+	border: 10px double red;
+}
+
+
+.Kaaya-recipe main p {
+	max-width: 900px;
+	line-height: 1.2;
+	margin: 5px;
+	text-indent: 2em;
+	text-align: justify;
+	font-style: italic;
+	font-size: 20px;
+	/* font-weight: 500px; */
+	font-weight: bold;
+	font-family: 'Courier New', Courier, monospace;
+	background-image: linear-gradient(25deg, #311aff, #ab00ae, #d50060, #523938);
+	border-radius: .5rem;
+	color: bisque;
+}
+
+.Kaaya-recipe h3 {
+	font-size: 20px;
+	font-weight: 700;
+	margin: 20px 0px;
+	color: rgb(61, 36, 6);
+	border: 5px solid purple;
+	outline: 5px dashed green;
+	outline-offset: 2px;
+	background-color: aqua;
+}
+
+.Kaaya-recipe li {
+	line-height: 1.2;
+	list-style-position: inside;
+	list-style-type: disc;
+	/* border: 2px solid #333;
+	border-radius: 2rem; */
+
+}
+
+.Kaaya-recipe ul li:nth-child(even) {
+	color: blue;
+
+}
+
+.Kaaya-recipe ol li {
+	list-style-position: inside;
+	list-style-type: upper-roman;
+	/* list-style-type: decimal; */
+	/* default is always decimal however you can change that to your desires */
+
+
+}
+
+.Kaaya-recipe img {
+	max-width: 100%;
+}
+
+.plate_image {
+	padding-top: 15px;
+	 /* border: 2px solid #333;  */
+	border-radius: 2rem;
+	filter: drop-shadow(0 0 0.50rem crimson);
+}
+
+aside {
+	width: 30%;
+	/* padding-left: 15px; */
+	margin-left: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-style: italic;
+	padding: auto;
+
+
+
+	/* background-color: lightgray; */
+}
+
+/* added this flex statement for alignment for <aside> to work */
+.flex {
+	display: flex;
+
+}
+
+.flex ul,
+.flex aside {
+	flex: 1;
+}
+
+
+/* ----END----- OF KAAYA'S RECIPE PAGE
+      ========================================================================== */
+=======
 	  
 /* HEATHERS RECIPE PAGE
       ========================================================================== */
@@ -311,4 +437,5 @@ footer {
 
 /* ----END----- OF LINDA's RECIPE PAGE
       ========================================================================== */
+
 
