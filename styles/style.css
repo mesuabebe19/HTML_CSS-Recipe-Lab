@@ -138,6 +138,7 @@ footer {
 
 
 
+
 /* KAAYA'S RECIPE PAGE
       ========================================================================== */
 /* Typography is the way  that text is arranged and presented from CSS */
@@ -261,3 +262,180 @@ aside {
 
 /* ----END----- OF KAAYA'S RECIPE PAGE
       ========================================================================== */
+=======
+	  
+/* HEATHERS RECIPE PAGE
+      ========================================================================== */
+
+.heather-recipe header {
+	color: black;
+	background-image: url(../images/Fresh_Veggies.jpg);
+	background-position: center -10px;
+}
+
+.heather-recipe nav {
+	background: black;
+}
+
+.heather-recipe header h1 {
+	color: white;
+	margin-top: 250px;
+	background: green;
+	width: 400px;
+	padding: 15px;
+}
+
+.heather-recipe h2 {
+	font-size: 25px;
+	font-weight: 700;
+	margin: 50px 0px;
+}
+
+.heather-recipe main p {
+	max-width: 750px;
+	line-height: 1.2;
+	margin: 5px;
+}
+
+.heather-recipe h3 {
+	font-size: 20px;
+	font-weight: 700;
+	margin: 20px 0px;
+}
+
+.heather-recipe li {
+	line-height: 1.2;
+	list-style-position: inside;
+	list-style-type: disc;
+}
+
+.heather-recipe ol li {
+	list-style-type: decimal;
+}
+
+.heather-recipe img {
+	max-width: 100%;
+}
+
+
+/* ----END----- OF HEATHERS RECIPE PAGE
+      ========================================================================== */
+
+
+/* LINDA's RECIPE PAGE
+      ========================================================================== */
+
+.lindas-recipe header {
+	background-image: url(../images/Linda\ in\ kitchen.jpg);
+	background-position: center;
+	border: solid black 1px;
+	border-radius: 7px;
+
+}
+
+.lindas-recipe header nav li a {
+	font-weight: bold;
+	color: rgb(112, 129, 145);
+}
+
+
+.lindas-recipe nav {
+	background: lightgray;
+	border-radius: 7px;
+
+}
+
+.lindas-recipe img {
+	max-width: 80%;
+	border: solid black 1px;
+	border-radius: 7px;
+}
+
+
+.lindas-recipe header h1 {
+	color: darkslategray;
+	margin-top: 250px;
+	background: rgba(211, 211, 211, .6);
+	width: 400px;
+	border-radius: 7px;
+	padding: 5px;
+	text-align: center;
+	border: solid 1px;
+}
+
+.lindas-recipe h2 {
+	font-size: 25px;
+	font-weight: 700;
+	margin: 50px 0px;
+	color: darkslategray;
+	text-decoration: underline wavy .25px;
+	background-color: lightgray;
+	border-radius: 7px;
+	padding: 15px;
+	border: solid 1px;
+	text-align: center;
+}
+
+.lindas-recipe li {
+
+	line-height: 1.25;
+	list-style-position: inside;
+	list-style-type: square;
+
+}
+
+.lindas-recipe ol li {
+	list-style-type: decimal;
+	line-height: 1.25;
+	font-size: medium;
+	inset-inline: 5px;
+	padding: 6px;
+
+}
+
+
+.lindas-recipe aside {
+	width: 30%;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: 15px;
+	float: right;
+	font-style: italic;
+	background-color: lightgray;
+	border-radius: 7px;
+	border: solid 1px;
+}
+
+.lindas-recipe h3 {
+	color: darkslategray;
+	font-weight: bold;
+	border-color: lightgray;
+	text-decoration: underline;
+	background-color: lightgray;
+	border-radius: 7px;
+	border: solid 1px;
+	padding: 11px;
+	width: 20%;
+	text-align: center;
+}
+
+.lindas-recipe p {
+	line-height: 1.25;
+	font-size: medium;
+}
+
+.lindas-recipe ul {
+	line-height: 1.5;
+	font-size: medium;
+}
+
+.lindas-recipe h4 {
+	color: darkslategray;
+}
+
+/* ----END----- OF LINDA's RECIPE PAGE
+      ========================================================================== */
+
+
