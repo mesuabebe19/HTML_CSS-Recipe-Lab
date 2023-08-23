@@ -136,6 +136,66 @@ footer {
       ========================================================================== */
 
 
+
+	  
+/* HEATHERS RECIPE PAGE
+      ========================================================================== */
+
+.heather-recipe header {
+	color: black;
+	background-image: url(../images/Fresh_Veggies.jpg);
+	background-position: center -10px;
+}
+
+.heather-recipe nav {
+	background: black;
+}
+
+.heather-recipe header h1 {
+	color: white;
+	margin-top: 250px;
+	background: green;
+	width: 400px;
+	padding: 15px;
+}
+
+.heather-recipe h2 {
+	font-size: 25px;
+	font-weight: 700;
+	margin: 50px 0px;
+}
+
+.heather-recipe main p {
+	max-width: 750px;
+	line-height: 1.2;
+	margin: 5px;
+}
+
+.heather-recipe h3 {
+	font-size: 20px;
+	font-weight: 700;
+	margin: 20px 0px;
+}
+
+.heather-recipe li {
+	line-height: 1.2;
+	list-style-position: inside;
+	list-style-type: disc;
+}
+
+.heather-recipe ol li {
+	list-style-type: decimal;
+}
+
+.heather-recipe img {
+	max-width: 100%;
+}
+
+
+/* ----END----- OF HEATHERS RECIPE PAGE
+      ========================================================================== */
+
+
 /* LINDA's RECIPE PAGE
       ========================================================================== */
 
@@ -251,3 +311,4 @@ footer {
 
 /* ----END----- OF LINDA's RECIPE PAGE
       ========================================================================== */
+
